@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        #main09 {
+            border: 2px solid red;
+            /*display: none;*/
+            width: 100%;
+            height: 125vh;
+            position: relative;
+            /*top: -85px;*/
+
+            background-image:url("assets/img/B2.png");
+
+            font-family: "Gill Sans", sans-serif;
+            list-style: none;
+        }
+
+
+        #topic9{
+            font-size: 50px;
+            color: #181818;
+            -webkit-text-stroke: 0.1vw gold;
+            position: relative;
+            left: 120px;
+
+            font-weight: bold;
+        }
+
+        #topic9:hover{
+            transform:scale(1.1);
+            transition:transform 1s;
+
+        }
+
+        .container{
+            background-color: black;
+        }
+
+
+        .container{
+            width: 100%;
+            height: 100vh;
+            background: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gallery{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .img-box{
+            width: 150px;
+            height: 500px;
+            margin: 10px;
+            border-radius: 50px;
+            background: url("assets/img/g1.jpg");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            transition: width 0.5s;
+        }
+
+        .img-box:nth-child(2){
+            background: url("assets/img/g2.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img-box:nth-child(3){
+            background: url("assets/img/g3.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img-box:nth-child(4){
+            background: url("assets/img/g4.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        .img-box:nth-child(5){
+            background: url("assets/img/g5.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img-box:nth-child(6){
+            background: url("assets/img/g6.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img-box:nth-child(7){
+            background: url("assets/img/g7.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+
+        .img-box:hover{
+            width: 300px;
+            cursor: pointer;
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+<main id="main09">
+
+
+    <section id="section9">
+
+        <div>
+            <h2 id="topic9" style="margin-left: 10px">Gallery....</h2>
+        </div>
+
+        <section id="m9SectionContact">
+
+            <!--            <h3>Contact Me</h3>-->
+
+            <section id="m9SectionContactSub1">
+
+                <div class="container">
+                    <div class="gallery">
+                        <div class="img-box"></div>
+                        <div class="img-box"></div>
+                        <div class="img-box"></div>
+                        <div class="img-box"></div>
+                        <div class="img-box"></div>
+                        <div class="img-box"></div>
+                        <div class="img-box"></div>
+                    </div>
+
+                </div>
+
+
+
+
+            </section>
+
+            <br><br><br><br><br>
+
+        </section>
+
+    </section>
+</main>
+
+</body>
+</html>
